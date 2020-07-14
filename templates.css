@@ -1,0 +1,79 @@
+/* ========== BASIC GLOBALS ========== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  /* background-color: whitesmoke; */
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  font-size: 15px;
+  font-family: 'Ubuntu', 'Roboto' sans-serif;
+  display: inline-block;
+  text-rendering: optimizeSpeed;
+}
+
+/* ========== CENTER ELEMENT ========== */
+/* Flex Property */
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Absolute Property */
+.parent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Grid Property */
+.parent {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+/* Margin Property */
+.parent {
+  height: 100vh;
+  display: grid;
+}
+.parent .child {
+  margin: auto;
+}
+
+/* ========== RESPONSIVE TEMPLATE ========== */
+/* EXTRA SMALL devices (less than 480px) */
+@media only screen and (max-width: 480px) {
+  /* Values go here... */
+}
+
+/* SMALL devices (old iPhones, 480px and up) */
+@media only screen and (min-width: 480px) {
+  /* Values go here... */
+}
+
+/* MEDIUM devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* Values go here... */
+}
+
+/* LARGE devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* Values go here... */
+}
+
+/* EXTRA LARGE devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* Values go here... */
+}
